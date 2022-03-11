@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="_field" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handle" prefHeight="680.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="final_107303001.GameController">
+   <children>
+      <Line endX="4.0" endY="522.0" layoutX="546.0" layoutY="119.0" startX="4.0" startY="-78.0" stroke="#9e9999" />
+      <Line endX="600.0" layoutX="250.0" layoutY="341.0" stroke="#9e9999" />
+      <Circle fill="#1f93ff00" layoutX="550.0" layoutY="341.0" radius="300.0" stroke="#9e9999" strokeType="INSIDE" />
+      <Circle fill="#1f96ff00" layoutX="850.0" layoutY="340.0" radius="15.0" stroke="#9e9999" strokeType="INSIDE" />
+      <Circle fill="#1f96ff00" layoutX="250.0" layoutY="340.0" radius="15.0" stroke="#9e9999" strokeType="INSIDE" />
+      <Circle fill="#1f96ff00" layoutX="550.0" layoutY="40.0" radius="15.0" stroke="#9e9999" strokeType="INSIDE" />
+      <Circle fill="#1f96ff00" layoutX="550.0" layoutY="640.0" radius="15.0" stroke="#9e9999" strokeType="INSIDE" />
+      <Circle fx:id="c1" fill="#ff688e" layoutX="550.0" layoutY="340.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fx:id="c2" fill="#23a2b5" layoutX="550.0" layoutY="640.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label fx:id="label_cntdwn" layoutX="530.0" layoutY="296.0" text="3" visible="false">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_clock" layoutX="964.0" layoutY="30.0" text="Time: 0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_start" layoutX="433.0" layoutY="262.0" style="-fx-background-color: white;" text="按下空白鍵開始遊戲">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_score" layoutX="961.0" layoutY="57.0" text="Score: 0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_comment" layoutX="509.0" layoutY="264.0" prefHeight="30.0" prefWidth="81.0" text=" Perfect !" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

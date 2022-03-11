@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1101.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="final_107303001.MenuController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="44.0" layoutX="655.0" layoutY="288.0" stroke="BLACK" strokeType="INSIDE" width="101.0" />
+      <Label layoutX="392.0" layoutY="251.0" text="Geometric Dancing">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_start" layoutX="356.0" layoutY="390.0" mnemonicParsing="false" onAction="#onStartPressed" prefHeight="44.0" prefWidth="80.0" text="開始" />
+      <Button fx:id="btn_exit" layoutX="665.0" layoutY="390.0" mnemonicParsing="false" onAction="#onExitPressed" prefHeight="44.0" prefWidth="80.0" text="離開" />
+      <Circle fill="#1f93ff00" layoutX="343.0" layoutY="238.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="254.0" layoutX="473.0" layoutY="310.0" startX="-100.0" />
+      <Circle fill="#1f93ff00" layoutX="380.0" layoutY="266.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handle" prefHeight="680.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="final_107303001.GameOverController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="341.0" layoutX="366.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="368.0" />
+      <Label layoutX="454.0" layoutY="79.0" text="遊戲結束">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_score" layoutX="478.0" layoutY="238.0" text="Score: 00000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_perfect" layoutX="484.0" layoutY="308.0" text="Perfect: 000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_good" layoutX="492.0" layoutY="351.0" text="Good: 000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_bad" layoutX="502.0" layoutY="392.0" text="Bad: 000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_miss" layoutX="498.0" layoutY="437.0" text="Miss: 000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="550.0" layoutY="146.0" startX="-100.0" />
+      <Label layoutX="460.0" layoutY="577.0" text="－按空白鍵回主畫面－">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
